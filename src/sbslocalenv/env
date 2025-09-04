@@ -1,0 +1,12 @@
+# Supabase configuration
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+
+# Stripe configuration (public key for frontend, secret keys for backend)
+VITE_STRIPE_PUBLISHABLE_KEY=pk_test_XXXXXXXXXXXXXXXXXXXXXX
+STRIPE_SECRET_KEY=sk_test_XXXXXXXXXXXXXXXXXXXXXX
+STRIPE_WEBHOOK_SECRET=whsec_XXXXXXXXXXXXXXXXXXXXXX
+
+# Add any additional environment variables for your project below
+# Example:
+# VITE_API_BASE_URL=https://api.rigoma5tours.com
